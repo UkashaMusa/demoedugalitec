@@ -501,7 +501,7 @@ footer .details ul {
         display: flex;
         flex-direction: row;
         max-height: 40vh;
-        overflow: hidden;
+        overflow-x: hidden;
 
     }
     header .container_header .logo{
@@ -739,7 +739,7 @@ footer .details ul {
       padding: 0px;
       margin: 0px;
       box-sizing: border-box;
-      overflow: hidden;
+      overflow-x: hidden;
     }
     footer *{
         box-sizing: inherit;
@@ -776,7 +776,7 @@ footer .details ul {
       padding: 0px;
       margin: 0px;
       box-sizing: border-box;
-      overflow: hidden;
+      overflow-x: hidden;
     }
     footer *{
         box-sizing: inherit;
@@ -815,7 +815,7 @@ footer .details ul {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
    }
    body * {
     box-sizing: inherit;
@@ -838,7 +838,7 @@ footer .details ul {
         display: flex;
         flex-direction: row;
         max-height: 40vh;
-        overflow: hidden;
+        overflow-x: hidden;
 
     }
     header .container_header .logo{
@@ -1040,7 +1040,7 @@ footer .details ul {
         position: relative;
     }
     footer .fcontainer {
-     overflow: hidden;
+     overflow-x: hidden;
     }
     footer .fcontainer .ffcontainer{
         display: flex;
@@ -1083,7 +1083,7 @@ footer .details ul {
         display: flex;
         flex-direction: row;
         max-height: 40vh;
-        overflow: hidden;
+        overflow-x: hidden;
 
     }
     header .container_header .logo{
@@ -1326,7 +1326,7 @@ footer .details ul {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
    }
    body * {
     box-sizing: inherit;
@@ -1348,7 +1348,7 @@ footer .details ul {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
-        overflow: hidden;
+        overflow-x: hidden;
        }
        body * {
         box-sizing: inherit;
@@ -1380,7 +1380,7 @@ footer .details ul {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
-        overflow: hidden;
+        overflow-x: hidden;
        }
        body * {
         box-sizing: inherit;
@@ -1421,7 +1421,7 @@ footer .details ul {
         padding: 0px;
         margin: 0px;
         box-sizing: border-box;
-        overflow: hidden;
+        overflow-x: hidden;
        }
        body * {
         box-sizing: inherit;
