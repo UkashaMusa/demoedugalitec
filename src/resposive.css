@@ -1,0 +1,184 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.contact_email, .container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contact_email ul, .social ul, nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.hero {
+    background: url('./src/Asset/hero-bg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+    background-color: #e68a00;
+}
+
+.hero2, .hero3, .about-us, .highlights, .clients, footer {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero2 .holder, .hero3 .highlight-cards, .highlights .highlight-cards, .clients .client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero2 .holder .img, .hero2 .holder .video {
+    flex: 1 1 45%;
+    padding: 10px;
+}
+
+.highlight-cards .card {
+    flex: 1 1 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.highlight-cards .card:hover {
+    transform: scale(1.05);
+}
+
+.highlight-cards .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.client-logos img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.client-logos img:hover {
+    transform: scale(1.05);
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer form input, footer form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #e68a00;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .contact_email, .container_header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact_email ul, .social ul, nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    nav ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero2 .holder, .hero3 .highlight-cards, .highlights .highlight-cards, .clients .client-logos {
+        flex-direction: column;
+    }
+
+    .highlight-cards .card, .hero2 .holder .img, .hero2 .holder .video {
+        flex: 1 1 100%;
+    }
+
+    .highlight-cards .card {
+        padding: 10px;
+    }
+}
