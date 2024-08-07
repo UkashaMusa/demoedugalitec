@@ -25,18 +25,21 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+   
+
   
 }
-.contact_email{
+header .contact_email{
     width: 90%;
     height: 6vh;
     margin: auto;
     margin-top: 0px;
-    background-color: rgba(219, 216, 216, 0.898);
+    display: none;
+    background-color: rgba(219, 216, 216, 0.898)
  
 }
 nav{
-    margin-top: 35px;
+    margin-top: 20px;
 }
 .contact_email{
     display: flex;
@@ -65,42 +68,43 @@ header {
     background: #333333;
     color: #fff;
     padding: 1rem 0;
-    text-align: center;
+   
+   
 }
+ 
  
 header .logo img{
     font-size: 1.5rem;
     font-weight: bold;
-    width: 120px;
+    width: 100px;
 }
 
 header nav ul {
-  
     list-style: none;
     padding: 0;
-    margin-left: 210px;
+   
    
 }
 
 header nav ul li {
     display: inline;
-    margin-left: 1rem;
+    
 }
 
 header nav ul li a {
-   padding: 15px;
-   
-   border-radius: 12px;
+    padding: 10px;
+ 
     color: #fff;
     text-decoration: none;
 }
 header nav ul li a:hover{
+    border-top: 2px solid pink;
+   
     color: pink;
-   font-size: 19px;
+   /* font-size: 19px; */
    transition: 0.5s;
 }
 .hero {
-    background-image: url('') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 4rem 0;
@@ -192,15 +196,18 @@ header nav ul li a:hover{
 
 
 .hero-content {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     position: absolute;
-    top: 200px;
+    top: 140px;
     left: 50px;
 }
 .hero-content h1{
     font-size: 50px;
    
+}
+.hero-content p{
+    font-size: 19px;
 }
 
 .hero .btn {
@@ -332,6 +339,7 @@ section.highlights {
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .card {
@@ -341,13 +349,16 @@ section.highlights {
     margin: 1em;
     overflow: hidden;
     max-width: 300px;
+    height: 700px;
     text-align: center;
+  
+    
     
 }
 
 .card img {
     width: 100%;
-    height:40%;
+    height:30%;
 }
 
 .card h3 {
@@ -359,6 +370,10 @@ section.highlights {
 .card p {
     padding: 0 1em 1em;
     color: black;
+}
+.card ol li{
+    color: black;
+    padding: 0 3px 3px;
 }
 
 .services, .about-us, .contact {
@@ -451,6 +466,15 @@ section.highlights {
     margin-left: 55px;
 
 }
+#Clients .container {
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+#Clients .container h2{
+
+    color: blue;
+}
 
 
 
@@ -469,6 +493,16 @@ footer {
     padding: 1rem;
     display: flex;
     overflow-x: hidden;
+}
+footer .fcontainer .ffcontainer ul {
+    list-style: none;
+    
+}
+footer .fcontainer .ffcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center ;
 }
 footer .container{
     display: flex;
@@ -512,10 +546,12 @@ footer .details ul {
     }
     header .container_header .logo{
         width: 190px;
+       
         
     }
     header .container_header .logo img{
         width: 50%;
+        
     }
     #navigation{
         display: none;
@@ -543,14 +579,11 @@ footer .details ul {
        
         width: 100%;
         padding: 10px;
-        padding-right: 70px;
+        padding-right: 30px;
         text-align: center;
        
     }
-    header .container_header #navigation ul li a:hover{
-         font-size: 20px;
-         transition: 0.5s;
-    }
+   
     header .container_header .buttonnav{
         position: absolute;
         left: 86%;
@@ -797,6 +830,9 @@ footer .details ul {
     #navigation ul{
        margin-left: 200px;  
         
+    }
+    .hero .hero-content{
+        top: 40px;
     }
     footer{
       width: 100%;
