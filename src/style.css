@@ -831,6 +831,9 @@ footer .details ul {
        margin-left: 200px;  
         
     }
+      .hero{
+        max-height:45vh;
+    }
     .hero .hero-content{
         top: 15px;
     }
