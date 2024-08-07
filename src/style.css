@@ -540,7 +540,7 @@ footer .details ul {
         width: 100%;
         display: flex;
         flex-direction: row;
-        max-height: 40vh;
+        max-height: 46vh;
         overflow: hidden;
 
     }
@@ -556,9 +556,9 @@ footer .details ul {
     #navigation{
         display: none;
         position:relative;
-        right: 40%;
+        right: 10%;
         width: 100%;
-        
+        height: 50vh;
         
     }
      #navigation ul{
@@ -725,7 +725,7 @@ footer .details ul {
 
     .highlight-cards .card {
         padding: 10px;
-        height: 110vh;
+        height: 120vh;
     }
     .contact .container form{
         width: 100%;
